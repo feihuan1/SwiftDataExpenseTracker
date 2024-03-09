@@ -11,6 +11,10 @@
 		E15CEFB42B9BD1CE0043589B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CEFB32B9BD1CE0043589B /* ContentView.swift */; };
 		E15CEFB62B9BD1D00043589B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15CEFB52B9BD1D00043589B /* Assets.xcassets */; };
 		E15CEFB92B9BD1D00043589B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15CEFB82B9BD1D00043589B /* Preview Assets.xcassets */; };
+		E15CEFC02B9BD1F90043589B /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CEFBF2B9BD1F90043589B /* Expense.swift */; };
+		E15CEFC22B9BDC140043589B /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CEFC12B9BDC140043589B /* AddExpenseSheet.swift */; };
+		E15CEFC42B9BE5DB0043589B /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CEFC32B9BE5DB0043589B /* ExpenseCell.swift */; };
+		E15CEFC62B9BED240043589B /* UpdateExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CEFC52B9BED240043589B /* UpdateExpenseSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E15CEFB32B9BD1CE0043589B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E15CEFB52B9BD1D00043589B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15CEFB82B9BD1D00043589B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E15CEFBF2B9BD1F90043589B /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		E15CEFC12B9BDC140043589B /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
+		E15CEFC32B9BE5DB0043589B /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
+		E15CEFC52B9BED240043589B /* UpdateExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				E15CEFB12B9BD1CE0043589B /* SwiftDataExpenseTrackerApp.swift */,
+				E15CEFC32B9BE5DB0043589B /* ExpenseCell.swift */,
+				E15CEFC52B9BED240043589B /* UpdateExpenseSheet.swift */,
+				E15CEFC12B9BDC140043589B /* AddExpenseSheet.swift */,
+				E15CEFBF2B9BD1F90043589B /* Expense.swift */,
 				E15CEFB32B9BD1CE0043589B /* ContentView.swift */,
 				E15CEFB52B9BD1D00043589B /* Assets.xcassets */,
 				E15CEFB72B9BD1D00043589B /* Preview Content */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15CEFC02B9BD1F90043589B /* Expense.swift in Sources */,
 				E15CEFB42B9BD1CE0043589B /* ContentView.swift in Sources */,
+				E15CEFC42B9BE5DB0043589B /* ExpenseCell.swift in Sources */,
+				E15CEFC62B9BED240043589B /* UpdateExpenseSheet.swift in Sources */,
+				E15CEFC22B9BDC140043589B /* AddExpenseSheet.swift in Sources */,
 				E15CEFB22B9BD1CE0043589B /* SwiftDataExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
